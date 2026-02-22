@@ -21,11 +21,29 @@
   --color-slate-200: rgba(226, 232, 240, 1);
   --color-slate-400: rgba(148, 163, 184, 1);
   --color-slate-500: rgba(100, 116, 139, 1);
+  --color-slate-600: rgba(71, 85, 105, 1);
   --color-slate-700: rgba(51, 65, 85, 1);
   --color-slate-800: rgba(30, 41, 59, 1);
   --color-slate-800-50: rgba(30, 41, 59, 0.5);
   --color-slate-900: rgba(15, 23, 42, 1);
   --color-slate-900-80: rgba(15, 23, 42, 0.8);
+  --color-amber-900-20: rgba(120, 53, 15, 0.2);
+  --color-amber-900-30: rgba(120, 53, 15, 0.3);
+  --color-amber-50: rgba(255, 251, 235, 1);
+  --color-amber-100: rgba(254, 243, 199, 1);
+  --color-amber-500: rgba(245, 158, 11, 1);
+  --color-amber-700: rgba(180, 83, 9, 1);
+  --color-emerald-50: #ecfdf5;
+  --color-emerald-100: #d1fae5;
+  --color-emerald-500: rgba(16, 185, 129, 1);
+  --color-emerald-700: rgba(4, 120, 87, 1);
+  --color-emerald-900-30: rgba(6, 78, 59, 0.3);
+  --color-emerald-900-20: rgba(6, 78, 59, 0.2);
+  --color-blue-100: rgba(219, 235, 254, 1);
+  --color-blue-500: rgba(59, 130, 246, 1);
+  --color-blue-700: rgba(29, 78, 216, 1);
+  --color-blue-900-30: rgba(30, 58, 138, 0.3);
+
 
   /**Old Colors*/
   --color-accent: #F4B740;
@@ -35,10 +53,10 @@
   --color-muted-emerald: #e6f4f1;
   --color-emerald-600: #059669;
   --color-emerald-400: #34d399;
-  --color-emerald-50: #ecfdf5;
+
   --color-emerald-950: #022c22;
   --color-emerald-950-30: rgba(2, 44, 34, 0.3);
-  --color-emerald-100: #d1fae5;
+
   --color-emerald-900: #064e3b;
   --color-emerald-200: #a7f3d0;
   --color-emerald-800: #065f46;
@@ -89,7 +107,7 @@
 
   --color-slate-800-40: rgba(30, 41, 59, 0.4);
   --color-slate-800-50: rgba(30, 41, 59, 0.5);
-  --color-slate-600: rgba(71, 85, 105, 1);
+
 
   --color-slare-300: rgba(203, 213, 225, 1);
 
@@ -123,6 +141,7 @@
     --background: var(--color-background-light);
     --white-to-teal-950: var(--color-white);
     --white-to-slate-900: var(--color-white);
+    --white-to-slate-700: var(--color-white);
     --white-80-to-slate-900-80: var(--color-white-80);
     --primary-dark-to-white: var(--color-primary-dark);
     --primary-dark-to-primary: var(--color-primary-dark);
@@ -132,11 +151,23 @@
     --slate-50-to-slate-800: var(--color-slate-50);
     --slate-50-to-800-50: var(--color-slate-50);
     --slate-500-to-slate-400: var(--color-slate-500);
+    --slate-600-to-400: var(--color-slate-600);
     --slate-200-to-slate-700: var(--color-slate-200);
     --slate-200-to-800: var(--color-slate-200);
+    --slate-700-to-300: var(--color-slate-700);
     --slate-800-to-slate-200: var(--color-slate-800);
     --slate-900-to-white: var(--color-slate-900);
+    --slate-900-to-100: var(--color-slate-900);
     --slate-100-to-800: var(--color-slate-100);
+    --amber-50-to-amber-900-20: var(--color-amber-50);
+    --amber-100-to-900-30: var(--color-amber-100);
+    --amber-700-to-amber-500: var(--color-amber-700);
+    /* --amber-700-to-900-30: var(--color-amber-700); */
+    --emerald-700-to-500: var(--color-emerald-700);
+    --emerald-50-900-20: var(--color-emerald-50);
+    --emerald-100-to-900-30: var(--color-emerald-100);
+    --blue-100-to-900-30: var(--color-blue-100);
+    --blue-700-to-500: var(--color-blue-700);
 
     /**Old root*/
     --input-bg: var(--color-primary-5);
@@ -196,6 +227,7 @@
     --background: var(--color-background-dark);
     --white-to-teal-950: var(--color-teal-950);
     --white-to-slate-900: var(--color-slate-900);
+    --white-to-slate-700: var(--color-slate-700);
     --white-80-to-slate-900-80: var(--color-slate-900-80);
     --primary-dark-to-white: var(--color-white);
     --primary-dark-to-primary: var(--color-primary);
@@ -205,11 +237,22 @@
     --slate-50-to-slate-800: var(--color-slate-800);
     --slate-50-to-800-50: var(--color-slate-800-50);
     --slate-500-to-slate-400: var(--color-slate-400);
+    --slate-600-to-400: var(--color-slate-400);
+    --slate-700-to-300: var(--color-slate-300);
     --slate-200-to-slate-700: var(--color-slate-700);
     --slate-200-to-800: var(--color-slate-800);
     --slate-800-to-slate-200: var(--color-slate-200);
     --slate-900-to-white: var(--color-white);
+    --slate-900-to-100: var(--color-slate-100);
     --slate-100-to-800: var(--color-slate-800);
+    --amber-50-to-amber-900-20: var(--color-amber-900-20);
+    --amber-100-to-900-30: var(--color-amber-900-30);
+    --amber-700-to-amber-500: var(--color-amber-500);
+    --emerald-700-to-500: var(--color-emerald-500);
+    --emerald-50-900-20: var(--color-emerald-900-20);
+    --emerald-100-to-900-30: var(--color-emerald-900-30);
+    --blue-100-to-900-30: var(--color-blue-900-30);
+    --blue-700-to-500: var(--color-blue-500);
 
     /**Old Dark*/
     --input-bg: var(--color-white-5);
