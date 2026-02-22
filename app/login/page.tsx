@@ -1,8 +1,11 @@
 'use client';
 
+import Navbar from "./_components/Navbar";
+
 export default function LoginPage() {
     return (
         <>
+            <Navbar />
             <main className="flex-1 flex flex-col items-center justify-center p-6 sm:p-12">
                 <div className="w-full max-w-[450px]">
                     {/* <!-- Login Card --> */}

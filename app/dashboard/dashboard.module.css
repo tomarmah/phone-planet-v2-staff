@@ -1,0 +1,12 @@
+@layer base {
+    .container {
+        --color-primary: #13ecda;
+        --background-light: #f6f8f8;
+        --background-dark: #102220;
+
+        --radius: 0.5rem;
+        --radius-lg: 1rem;
+        --radius-xl: 1.5rem;
+        --radius-full: 9999px;
+    }
+}
