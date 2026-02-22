@@ -141,6 +141,7 @@
     --background: var(--color-background-light);
     --white-to-teal-950: var(--color-white);
     --white-to-slate-900: var(--color-white);
+    --white-to-slate-800: var(--color-white);
     --white-to-slate-700: var(--color-white);
     --white-80-to-slate-900-80: var(--color-white-80);
     --primary-dark-to-white: var(--color-primary-dark);
@@ -150,6 +151,7 @@
     --primary-5-to-primary-10: var(--color-primary-5);
     --slate-50-to-slate-800: var(--color-slate-50);
     --slate-50-to-800-50: var(--color-slate-50);
+    --slate-50-to-700: var(--color-slate-50);
     --slate-500-to-slate-400: var(--color-slate-500);
     --slate-600-to-400: var(--color-slate-600);
     --slate-200-to-slate-700: var(--color-slate-200);
@@ -159,6 +161,7 @@
     --slate-900-to-white: var(--color-slate-900);
     --slate-900-to-100: var(--color-slate-900);
     --slate-100-to-800: var(--color-slate-100);
+    --slate-100-to-800-50: var(--color-slate-100);
     --amber-50-to-amber-900-20: var(--color-amber-50);
     --amber-100-to-900-30: var(--color-amber-100);
     --amber-700-to-amber-500: var(--color-amber-700);
@@ -227,6 +230,7 @@
     --background: var(--color-background-dark);
     --white-to-teal-950: var(--color-teal-950);
     --white-to-slate-900: var(--color-slate-900);
+    --white-to-slate-800: var(--color-slate-800);
     --white-to-slate-700: var(--color-slate-700);
     --white-80-to-slate-900-80: var(--color-slate-900-80);
     --primary-dark-to-white: var(--color-white);
@@ -236,6 +240,7 @@
     --primary-5-to-primary-10: var(--color-primary-10);
     --slate-50-to-slate-800: var(--color-slate-800);
     --slate-50-to-800-50: var(--color-slate-800-50);
+    --slate-50-to-700: var(--color-slate-700);
     --slate-500-to-slate-400: var(--color-slate-400);
     --slate-600-to-400: var(--color-slate-400);
     --slate-700-to-300: var(--color-slate-300);
@@ -245,6 +250,7 @@
     --slate-900-to-white: var(--color-white);
     --slate-900-to-100: var(--color-slate-100);
     --slate-100-to-800: var(--color-slate-800);
+    --slate-100-to-800-50: var(--color-slate-800-50);
     --amber-50-to-amber-900-20: var(--color-amber-900-20);
     --amber-100-to-900-30: var(--color-amber-900-30);
     --amber-700-to-amber-500: var(--color-amber-500);
