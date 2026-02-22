@@ -1,0 +1,23 @@
+@layer base {
+    .container {
+        --color-primary: #197fe6;
+        --color-background-light: #f6f7f8;
+        --color-background-dark: #111921;
+        --color-slate-900: rgba(15, 23, 42, 1);
+
+        --background-light-to-slate-900: var(--color-background-light);
+
+        --radius: 0.5rem;
+        --radius-lg: 1rem;
+        --radius-xl: 1.5rem;
+        --radius-full: 9999px;
+    }
+
+    .dark .container {
+        --background-light-to-slate-900: var(--color-slate-900);
+    }
+
+    /*.material-symbols-outlined .container {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    } */
+}
