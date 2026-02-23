@@ -1,0 +1,26 @@
+@layer base {
+    .container {
+        --color-primary: #13daec;
+        --color-background-light: #f6f8f8;
+        --color-background-dark: #102022;
+        --color-deep-teal: #0d1a1b;
+        --deep-teal: #0d1a1b;
+        --color-muted-teal: #4c939a;
+        --color-accent-teal: #e7f2f3;
+
+        --background: var(--color-background-light);
+
+        --radius: 0.5rem;
+        --radius-lg: 1rem;
+        --radius-xl: 1.5rem;
+        --radius-full: 9999px;
+    }
+
+    .dark .container {
+        --background: var(--color-background-dark);
+    }
+
+    .container .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+}
