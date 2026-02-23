@@ -1,0 +1,24 @@
+@layer base {
+    .container {
+        --color-primary: #2e7f71;
+        --color-background-light: #f6f8f7;
+        --color-background-dark: #141e1c;
+
+        /* --background: var(--color-background-light); */
+
+        --radius: 0.5rem;
+        --radius-lg: 1rem;
+        --radius-xl: 1.5rem;
+        --radius-full: 9999px;
+    }
+
+    /* .dark .container {
+        --background: var(--color-background-dark);
+    } */
+
+    .material-symbols-outlined .container {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
