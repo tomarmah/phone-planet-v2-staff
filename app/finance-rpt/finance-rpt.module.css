@@ -1,0 +1,41 @@
+@layer base {
+    .container {
+        --bg-page: #F9FAFA;
+        --bg-card: #FFFFFF;
+        --deep-teal: #0F3D3E;
+        --border-neutral: #E6ECEB;
+        --primary-teal: #11c4d4;
+        --emerald: #10b981;
+        --amber: #f59e0b;
+        --muted-terracotta: #c46a56;
+
+        --background-color: var(--bg-page);
+        --color: var(--deep-teal);
+
+        --font-display: var(--font-manrope), sans-serif;
+
+        font-family: var(--font-display);
+    }
+
+    .container .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .container .active-nav {
+        background-color: var(--deep-teal);
+        color: white;
+    }
+
+    .container ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .container ::-webkit-scrollbar-track {
+        background: var(--bg-page);
+    }
+
+    .container ::-webkit-scrollbar-thumb {
+        background: var(--border-neutral);
+        border-radius: 10px;
+    }
+}
