@@ -1,0 +1,37 @@
+@layer base {
+    .container {
+        /* Color variables */
+        --primary: #0F3D3E;
+        /* Deep Teal for buttons and primary elements */
+        --accent: #11d4c4;
+        /* Maintaining the teal accent for highlights */
+        --bg-main: #F9FAFA;
+        --card-shadow: rgba(15, 61, 62, 0.06);
+
+        /* Font */
+        --font-display: var(--font-inter), sans-serif;
+        font-family: var(--font-display);
+
+        /* Background and text color (ensure these variables are defined elsewhere, e.g., globally) */
+        /* background-color: var(--page-bg);
+        color: var(--brand-dark); */
+
+        /* Box shadow as a variable */
+        --shadow-soft: 0px 8px 24px rgba(15, 61, 62, 0.06);
+
+        /* Border radius variables */
+        --radius: 0.5rem;
+        --radius-lg: 1rem;
+        --radius-xl: 1.5rem;
+        --radius-full: 9999px;
+
+        /* Optional: apply a default box-shadow to the container using the variable */
+        box-shadow: var(--shadow-soft);
+        /* border-radius: var(); */
+
+    }
+
+    .container .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+}
