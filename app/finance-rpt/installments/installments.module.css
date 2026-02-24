@@ -1,0 +1,49 @@
+@layer base {
+    .container {
+        --primary: #13ec6d;
+        --brand-dark: #0B1F23;
+        --page-bg: #F9FAFA;
+        --border-subtle: #E6ECEB;
+        --status-emerald-bg: #DCFCE7;
+        --status-emerald-text: #065F46;
+        --status-amber-bg: #FEF3C7;
+        --status-amber-text: #92400E;
+        --status-terracotta-bg: #FEE2E2;
+        --status-terracotta-text: #991B1B;
+
+        --font-display: var(--font-inter), sans-serif;
+
+        background-color: var(--page-bg);
+        color: var(--brand-dark);
+
+        font-family: var(--font-display);
+
+        --radius: 0.5rem;
+        --radius-lg: 1rem;
+        --radius-xl: 1.5rem;
+        --radius-full: 9999px;
+
+    }
+
+    .container .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    /* .container .active-nav {
+        background-color: var(--deep-teal);
+        color: white;
+    }
+
+    .container ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .container ::-webkit-scrollbar-track {
+        background: var(--bg-page);
+    }
+
+    .container ::-webkit-scrollbar-thumb {
+        background: var(--border-neutral);
+        border-radius: 10px;
+    } */
+}
