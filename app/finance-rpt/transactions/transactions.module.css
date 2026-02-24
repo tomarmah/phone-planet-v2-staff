@@ -1,0 +1,55 @@
+@layer base {
+    .container {
+        /* Colors */
+        --color-primary: #0B1F23;
+        /* Deep Teal/Dark Navy for branding */
+        --color-accent: #11c4d4;
+        --color-canvas: #F9FAFA;
+        --color-border-ui: #E6ECEB;
+        --color-text-main: #0B1F23;
+
+        /* Font families */
+        --font-sans: "Inter", sans-serif;
+        --font-financial: "Manrope", sans-serif;
+
+        /* Border radius */
+        --radius: 0.25rem;
+        /* DEFAULT */
+        --radius-lg: 0.5rem;
+        --radius-xl: 0.75rem;
+        --radius-full: 9999px;
+
+        /* Apply base font to everything inside container */
+        font-family: var(--font-sans);
+        color: var(--color-text-main);
+
+    }
+
+    /* Example usage for headings */
+    .container h1,
+    .container h2,
+    .container h3 {
+        font-family: var(--font-financial);
+    }
+
+    /* Example usage for border radius */
+    .container .card {
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--color-border-ui);
+        background-color: var(--color-canvas);
+    }
+
+    .container .button {
+        background-color: var(--color-primary);
+        color: white;
+        border-radius: var(--radius);
+        padding: 0.5rem 1rem;
+        font-family: var(--font-financial);
+    }
+
+    .container .financial-figure {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        color: #0B1F23;
+    }
+}
