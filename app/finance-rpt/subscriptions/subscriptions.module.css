@@ -1,0 +1,41 @@
+@layer base {
+    .container {
+        /* Colors */
+        --color-primary: #2E7D6F;
+        --color-emerald-muted: #2E7D6F;
+        --color-background-light: #F9FBFB;
+        --color-surface: #FFFFFF;
+        --border-light: #E5E9E8;
+        --color-slate-800: rgba(30, 41, 59, 1);
+
+        /* Font families */
+        /* Font */
+        --font-sans: var(--font-inter), sans-serif;
+        --font-display: var(--font-manrope), sans-serif;
+
+
+        /* DEFAULT */
+        /* Border radius */
+        --radius: 0.5rem;
+        --radius-lg: 0.75rem;
+        --radius-xl: 1rem;
+        --radius-2xl: 1.5rem;
+        --radius-full: 9999px;
+
+        font-family: var(--font-sans);
+        color: var(--color-slate-800);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Example usage for headings */
+    .container h1,
+    .container h2,
+    .container h3 {
+        font-family: var(--font-display);
+    }
+
+    .container .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+}
